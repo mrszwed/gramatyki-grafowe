@@ -45,7 +45,7 @@ class HyperGraph:
             print(f"  {edge}")
 
     def visualize(self, filename=None):
-        plt.figure(figsize=(10, 10))
+        plt.figure(figsize=(25, 25))
 
         for edge in self.edges:
             if not edge.is_hyperedge():
